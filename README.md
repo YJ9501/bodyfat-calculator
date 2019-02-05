@@ -35,8 +35,8 @@ From Siri's equation, we get the relationship between body fat percentage and  b
 4. There is a method to calculate body density accurately based on determining body volume by underwater submersion. But it is hard for doctors who want to and easily quickly determine a patient’s body fat percentage based on commonly available measurements to use.
 
 ### Data Set:
-A data set includes 252 men with measurements of their percentage of body fat and other body measurements and 16 variables as follows:
-Age (years)  
+The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
+;Age (years)  
 Weight (lbs)  
 Height (inches)  
 Adioposity (bmi)
@@ -54,8 +54,6 @@ Body Density(gm/cm^3)
 Body Fat Percentage
 "Measurement standards are listed in Benhke and Wilmore (1974), pp. 45-48 where, for instance, the abdomen 2 circumference is measured "laterally, at the level of the iliac crests, and anteriorly, at the umbilicus."
 
-Data Description:
-The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements. There are totally 16 variables, including Body Density and Body Fat Percentage.
 
 
 ## Programming Language:
