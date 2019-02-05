@@ -35,7 +35,8 @@ From Siri's equation, we get the relationship between body fat percentage and  b
 
 ### Data Set:
 The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
->Age (years)  
+
+Age (years)  
 Weight (lbs)  
 Height (inches)  
 Adioposity (bmi)
@@ -51,7 +52,7 @@ Forearm circumference (cm)
 Wrist circumference (cm) 
 Body Density(gm/cm^3)
 Body Fat Percentage
-"Measurement standards are listed in Benhke and Wilmore (1974), pp. 45-48 where, for instance, the abdomen 2 circumference is measured "laterally, at the level of the iliac crests, and anteriorly, at the umbilicus."
+>"Measurement standards are listed in Benhke and Wilmore (1974), pp. 45-48 where, for instance, the abdomen 2 circumference is measured "laterally, at the level of the iliac crests, and anteriorly, at the umbilicus."
 
 
 
