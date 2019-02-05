@@ -14,9 +14,6 @@ There is a method to calculate body density accurately based on determining body
 
 >Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
 
-### Online Body Fat Calculator:
-![Alt text](/Desktop/1549348287017.jpg)
-
 
 ## Data Description:
 
