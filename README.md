@@ -12,12 +12,11 @@ In this module, we are going to figure out a simple and robust method to estimat
 
 There is a method to calculate body density accurately based on determining body volume by underwater submersion. But it is hard for doctors who want to and easily quickly determine a patient’s body fat percentage based on commonly available measurements to use.
 
->Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
+Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
 
 
 ## Data Description:
 
-1.Health assessment method support: Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat.
 1.Health assessment method support: Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat.
 2.Fact: Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
 3.Equation and  Definition:
@@ -36,7 +35,7 @@ From Siri's equation, we get the relationship between body fat percentage and  b
 
 ### Data Set:
 The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
-;Age (years)  
+>Age (years)  
 Weight (lbs)  
 Height (inches)  
 Adioposity (bmi)
