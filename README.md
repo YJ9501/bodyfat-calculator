@@ -12,7 +12,7 @@ In this module, we are going to figure out a simple and robust method to estimat
 
 There is a method to calculate body density accurately based on determining body volume by underwater submersion. But it is hard for doctors who want to and easily quickly determine a patient’s body fat percentage based on commonly available measurements to use.
 
-Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
+Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","WAIST",HIP" are often used.
 
 The analysis will base on the fact that Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
 
