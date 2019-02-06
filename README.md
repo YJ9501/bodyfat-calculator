@@ -14,26 +14,10 @@ There is a method to calculate body density accurately based on determining body
 
 Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
 
+The analysis will base on the faxt that Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
+
 
 ## Data Description:
-
-1.Health assessment method support: Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat.
-2.Fact: Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
-3.Equation and  Definition:
-Siri (1956)) assume that the body consists of two components - lean body tissue and fat tissue.
-D = 1/[(A/a) + (B/b)], B = (1/D)*[ab/(a-b)] - [b/(a-b)], 
-D = Body Density (gm/cm^3) 
-A = proportion of lean body tissue 
-B = proportion of fat tissue (A+B=1) 
-a = density of lean body tissue (gm/cm^3) 
-b = density of fat tissue (gm/cm^3), 
-
-"Siri's equation":  
-Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
-From Siri's equation, we get the relationship between body fat percentage and  body density.
-4. There is a method to calculate body density accurately based on determining body volume by underwater submersion. But it is hard for doctors who want to and easily quickly determine a patient’s body fat percentage based on commonly available measurements to use.
-
-### Data Set:
 The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
 
 Age (years)  
@@ -52,9 +36,20 @@ Forearm circumference (cm)
 Wrist circumference (cm) 
 Body Density(gm/cm^3)
 Body Fat Percentage
+
 >"Measurement standards are listed in Benhke and Wilmore (1974), pp. 45-48 where, for instance, the abdomen 2 circumference is measured "laterally, at the level of the iliac crests, and anteriorly, at the umbilicus."
 
-
+>Equation and  Definition:
+Siri (1956)) assume that the body consists of two components - lean body tissue and fat tissue.
+D = 1/[(A/a) + (B/b)], B = (1/D)*[ab/(a-b)] - [b/(a-b)], 
+D = Body Density (gm/cm^3) 
+A = proportion of lean body tissue 
+B = proportion of fat tissue (A+B=1) 
+a = density of lean body tissue (gm/cm^3) 
+b = density of fat tissue (gm/cm^3), 
+"Siri's equation":  
+Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
+From Siri's equation, we get the relationship between body fat percentage and  body density.
 
 ## Programming Language:
 R
