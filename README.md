@@ -42,6 +42,8 @@ Body Fat Percentage
 ### Equation and  Definition:
 Siri (1956)) assume that the body consists of two components - lean body tissue and fat tissue.
 D = 1/[(A/a) + (B/b)]
+
+
 B = (1/D)*[ab/(a-b)] - [b/(a-b)]
 D = Body Density (gm/cm^3)
 A = proportion of lean body tissue 
