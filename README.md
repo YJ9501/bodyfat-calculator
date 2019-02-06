@@ -18,8 +18,8 @@ The analysis will base on the fact that Percentage of body fat for an individual
 
 
 ## Data Description:
+### Data Set
 The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
-
 Age (years)  
 Weight (lbs)  
 Height (inches)  
@@ -39,7 +39,7 @@ Body Fat Percentage
 
 >"Measurement standards are listed in Benhke and Wilmore (1974), pp. 45-48 where, for instance, the abdomen 2 circumference is measured "laterally, at the level of the iliac crests, and anteriorly, at the umbilicus."
 
->Equation and  Definition:
+### Equation and  Definition:
 Siri (1956)) assume that the body consists of two components - lean body tissue and fat tissue.
 D = 1/[(A/a) + (B/b)], B = (1/D)*[ab/(a-b)] - [b/(a-b)];
 D = Body Density (gm/cm^3);
@@ -49,7 +49,8 @@ a = density of lean body tissue (gm/cm^3);
 b = density of fat tissue (gm/cm^3); 
 "Siri's equation":  
 Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
-From Siri's equation, we get the relationship between body fat percentage and  body density.
+
+>From Siri's equation, we get the relationship between body fat percentage and  body density.
 
 ## Programming Language:
 R
