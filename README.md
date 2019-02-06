@@ -14,7 +14,7 @@ There is a method to calculate body density accurately based on determining body
 
 Accordind to some popular books, estimating the percentage of body fat is at least a part, considered to assess body health. The books show that age, skin-fold measurements and body circumference measurements are used to estimate body fat. Additionally, online body fat percentage calculators show that among age, skin-fold measurements and body circumference measurements, "AGE", "WEIGHT","HEIGHT", "WRIST",HIP" are often used.
 
-The analysis will base on the faxt that Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
+The analysis will base on the fact that Percentage of body fat for an individual can be estimated once body density has been determined. Therefore, we would try to figure out if body-fat percentage is highly-related with body density.
 
 
 ## Data Description:
@@ -41,12 +41,12 @@ Body Fat Percentage
 
 >Equation and  Definition:
 Siri (1956)) assume that the body consists of two components - lean body tissue and fat tissue.
-D = 1/[(A/a) + (B/b)], B = (1/D)*[ab/(a-b)] - [b/(a-b)], 
-D = Body Density (gm/cm^3) 
-A = proportion of lean body tissue 
-B = proportion of fat tissue (A+B=1) 
-a = density of lean body tissue (gm/cm^3) 
-b = density of fat tissue (gm/cm^3), 
+D = 1/[(A/a) + (B/b)], B = (1/D)*[ab/(a-b)] - [b/(a-b)];
+D = Body Density (gm/cm^3);
+A = proportion of lean body tissue; 
+B = proportion of fat tissue (A+B=1);
+a = density of lean body tissue (gm/cm^3); 
+b = density of fat tissue (gm/cm^3); 
 "Siri's equation":  
 Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
 From Siri's equation, we get the relationship between body fat percentage and  body density.
