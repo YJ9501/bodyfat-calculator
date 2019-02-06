@@ -47,8 +47,7 @@ Siri (1956)) assume that the body consists of two components - lean body tissue 
 <br> B = proportion of fat tissue (A+B=1)
 <br> a = density of lean body tissue (gm/cm^3) 
 <br> b = density of fat tissue (gm/cm^3) 
-<br>"Siri's equation":  
-Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
+<br>"Siri's equation":  Percentage of Body Fat (i.e. 100*B) = 495/D - 450.  
 
 >From Siri's equation, we get the relationship between body fat percentage and  body density.
 
