@@ -20,7 +20,7 @@ The analysis will base on the fact that Percentage of body fat for an individual
 ## Data Description:
 ### Data Set
 The data is a real collection of 252 men with measurements of their percentage of body fat and various body circumference measurements as follows:
-Age (years)  
+<br>Age (years)  
 Weight (lbs)  
 Height (inches)  
 Adioposity (bmi)
