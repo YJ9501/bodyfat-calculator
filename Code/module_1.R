@@ -223,10 +223,10 @@ coef(fit_l)
 
 #=====Lasso=====================================================================
 fit_lasso <- cv.glmnet(as.matrix(bf_data[,-1]),bf_data$bodyfat,family = "gaussian", type.measure = "deviance")
-fit_lasso$lambda.1se
 plot(fit_lasso)
-fit.lasso <- glmnet(as.matrix(bf_data[,-1]),bf_data$bodyfat,family = "gaussian", lambda = 0.4210889, alpha = 1)
+fit.lasso <- glmnet(as.matrix(bf_data[,-1]),bf_data$bodyfat,family = "gaussian", lambda = fit_lasso$lambda.1se, alpha = 1)
 bodyfat_pre <- predict(fit.lasso, newx = as.matrix(bf_data[,-1]))
 mse.lasso <- sum((bodyfat_pre-bf_data$bodyfat)^2)/250
 mse.lasso
 coef(fit.lasso)
+fit_lasso$lambda.1se
